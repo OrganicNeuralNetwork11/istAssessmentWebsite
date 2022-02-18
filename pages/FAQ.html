@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+  
+<head>
+  <title>Frequentyl Asked Questions</title>
+  <link rel="stylesheet" type="text/css" href="../css/StylingTabs.css">
+  <style>
+
+/* -------------- Accordion -------------- */
+
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: 121b42;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+/* -------------- Parallax -------------- */
+
+.parallax {
+  /* The image used */
+  background-image: url("../images/faq.png");
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* -------------- Background Colour -------------- */
+body {
+	background-color: #2d4096;
+	background-size: cover;
+}
+/* -------------- End of Background Colour -------------- */
+
+/* -------------- Colour Changes and Sizing -------------- */
+p {
+	color: white;
+	font-size: 18px;
+	text-indent: 50px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+h1 {
+	color: white;
+}
+
+h2 {
+	color: white;
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+}
+
+/* -------------- Button Stuff -------------- */
+
+.button {
+  background-color: #4CAF50; 
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button5 {
+  background-color: #000000;
+  color: white;
+  border: 2px solid #555555;
+}
+
+.button5:hover {
+  background-color: #555555;
+  color: white;
+}
+
+/* -------------- End of Colour Changes -------------- */
+
+body {
+  background: #222;
+  color: #f0f0f0;
+}
+
+</style>
+</head>
+  
+<!-- ------------------------------------------------ Body ------------------------------------------------ -->
+<body>
+
+<h1 style="background-color:LightGray"> </h1>
+
+<!-- ------------ Nav Bar ------------ -->
+<header>
+    <div class="container">
+      <h1 class="logo"></h1>
+
+      <nav>
+        <ul class="navBar" style="font-size:100%;">
+		  <li><a href="../pages/WhatNet.html"target="_blank" class="listLink">What is the internet?</a></li>
+		  <li><a href="../pages/History.html"target="_blank" class="listLink">History of the Internet</a></li>
+		  <li><a href="../pages/Use.html"target="_blank" class="listLink">What is the Internet used for?</a></li>
+		  <li><a href="../pages/Connecting.html"target="_blank" class="listLink">Connecting to the Internet</a></li>
+		  <li><a href="../pages/Groups.html"target="_blank" class="listLink">Email, Newsgroups, Chat, World Wide Web</a></li>
+		  <li><a href="../pages/Browsers.html"target="_blank" class="listLink">Browsers</a></li>
+		  <li><a href="../pages/IP.html"target="_blank" class="listLink">Internet protocols</a></li>
+		  <li><a href="../pages/Security.html"target="_blank" class="listLink">Security and Privacy issues</a></li>
+		  <li><a href="../pages/Future.html"target="_blank" class="listLink">Imagining the future</a></li>
+		  <li><a href="../pages/FAQ.html"target="_blank" class="listLink">FAQ</a></li> 
+		</ul>
+      </nav>
+    </div>
+  </header>
+<!-- ------------ End of Nav Bar ------------ -->
+
+<!-- ------------ Text and Stuff ------------ -->
+
+<h1>Frequentyl Asked Questions</h1>
+<div class="parallax"></div>
+
+<p>Here are some frequently asked questions, answered!!!</p>
+<button class="accordion">What is downloading?</button>
+<div class="panel">
+  <p>Downloading is the process of retrieving data from another computer on a network; for example text, pictures or sound. Viewing a page on the internet is downloading data from another computer and contributes to any download limits placed on the user's account by the internet service provider (ISP).</p>
+</div>
+
+<button class="accordion">What is uploading?</button>
+<div class="panel">
+  <p>Uploading is the process of sending data from a computer to another computer on a network; for example, sending an email or uploading a web page. Allowing other internet users to retrieve files located on your computer, for example music files, is also uploading data.</p>
+</div>
+
+<button class="accordion">Does 'shaping' affect my internet data rate?</button>
+<div class="panel">
+  <p>Shaping is the practice among ISPs of intentionally reducing data rates (to approximately 64 kbits/s) when the download quota for the plan's billing period has been exceeded. Telstra does not shape their internet service, but instead charge customers for the downloads/uploads increments above the plan quota.</p>
+</div>
+
+<button class="accordion">Can the advertised download and upload data rate be expected?</button>
+<div class="panel">
+  <p>Packet networks, including internet protocol-based networks (IP) such as the internet, do not use dedicated circuits (pathways) and it is therefore impossible to categorically state what the data rate of any particular session is going to be. Reported data rates for these services are usually theoretical maximums, which may not be achievable and vary during any particular session. Many external factors outside the control of ISP may contribute to diminished data rates.</p>
+</div>
+
+<h1>Types of internet access technologies</h1>
+
+<button class="accordion">Dial-up internet access</button>
+<div class="panel">
+  <p>The most common internet access technology in Australia, dial-up internet access enables users to access internet by establishing a connection through a modem that dials into the public telephone network (circuit switched Public Switch Telephone Network). This technology requires a 'call' to be made and establishes the data link through the voice channel of the PSTN. This means users incur any relevant calling charges (in addition to charges levied for internet access) when establishing a session and users cannot use any telephones connected to the same line during an internet session. The data rate is usually limited to a maximum download data rate of 56 kbit/s.</p>
+</div>
+
+<button class="accordion">Integrated services digital network</button>
+<div class="panel">
+  <p>Integrated services digital network (ISDN) technology provides a dedicated data service that can be used to provide voice telephony and basic data services such as internet and point-of-sale electronic payment services. It offers downstream data rates of up to 128 kbit/s. ISDN uses a unique architecture that is conceptually similar to circuit-switched networks, but it can function over significantly longer distances between the user's premises and the nearest network point-of-presence compared with many terrestrial broadband technologies.</p>
+</div>
+
+<button class="accordion">Digital subscriber line technologies</button>
+<div class="panel">
+  <p>Various digital subscriber line (DSL) technologies are deployed in Australia, offering data rates significantly higher than dial-up internet access. DSL technologies operate over copper-pair access networks originally deployed for circuit-switched telephony (the PSTN) and exploit the significant bandwidth not used by those telephony services.<br><br>DSL technologies vary significantly in performance attributes and configuration and there is an emerging trend towards generational evolution analogous to the evolution of mobile access technologies, with the prime example being the evolution of asymmetric DSL (ADSL) into longer range and faster versions, described as ADSL2 and ADSL2+.<br><br>ADSL is asymmetrical due to the different rates for uploading and downloading data, with the upload rate usually being a fraction of the download rate. It is theoretically capable of download rates up to 8 Mbit/s and upload rates of up to 1 Mbit/s, but there are virtually no services offering download rates of more than 1.5 Mbit/s, due to the limitations of the PSTN. ADSL is historically only available up to about four kilometres from an ADSL-enabled telephone exchange.</p>
+</div>
+
+<button class="accordion">Hybrid fibre coaxial cable technologies</button>
+<div class="panel">
+  <p>Hybrid fibre coaxial cable (HFC) technologies involve the use of optical fibre and coaxial cable to carry data at high rates. The optical fibre connection forms the 'backbone', with coaxial cable running from fibre nodes to the customer's premises. These networks usually support multiple service channels in the form of voice telephony, internet access and subscription television services.</p>
+</div>
+
+<button class="accordion">Optical fibre technologies</button>
+<div class="panel">
+  <p>Optical fibre cable services are regarded as the most reliable and highest data rate infrastructure available for supplying telecommunications services. While other current and emerging services may be able to deliver the same applications and content, most of these alternatives are limited in geographic range from the required base stations and the maximum available data rate. The relative disadvantage of optical fibre as a delivery system for services is its cost, because it requires trenching (digging of trenches to lay cables) and physical installation of a buried or overhead cable. It is also much more expensive to terminate. Because of this cost, at present optical fibre is used primarily for backhaul services.</p>
+</div>
+
+<button class="accordion">Broadband over power line communications</button>
+<div class="panel">
+  <p>Broadband over power line (BPL) communications is an emerging technology that uses electricity networks for the transmission of data, voice and video. Subscribers only need to install a modem that plugs into an ordinary electricity outlet and pay a subscription fee similar to other internet access services. BPL may also be used for in-building networks, such as business local area networks (LANs) and home networks. It has been deployed in four pilot projects in Australia and is currently subject to an ACMA review.</p>
+</div>
+
+<h1>Factors that affect your internet service</h1>
+
+<button class="accordion">Dial-up</button>
+<div class="panel">
+  <p>The theoretical download data rate for most dial-up internet connection is 56 kbit/s. This speed can be expected on a dedicated twisted copper pair that is close to a telephone exchange, however, this speed may not be achieved due to other factors. As the previous sentence suggests, the further the end-user is from the exchange much of the signal transmitted along the line is attenuated (diminished) without loading coils that regenerate the signal. Similar principles apply ISDN and ADSL.</p>
+</div>
+
+<button class="accordion">ADSL</button>
+<div class="panel">
+  <p>ADSL technology uses existing telephone infrastructure (twisted copper wiring) where in most cases there is a dedicated line between the end-user and the telephone exchange. In some cases there is no dedicated line to individual end-users. In some locations (especially in regional areas) there are network configurations where end-users are connected (by copper pairs) to Remote Integrated Multiplexers (RIMs), which is in turn connected (by optical fibre) to the exchange. This network configuration often prohibits (for certain technical and commercial reasons) the provision of ADSL services to end-users. Telstra has a demand register where they track consumer requests for RIMs to be upgraded to support ADSL. For further information, please contact Telstra.</p>
+</div>
+
+<button class="accordion">Satellite</button>
+<div class="panel">
+  <p>Satellite service may vary due to a number of factors. Attenuation and noise are likely to occur during the thousands of kilometres that satellite signals need to travel. Performance generally varies the further away a service is from the satellite. In the case of geosynchronous satellites (which are maintained above the equator) satellite dishes in Southern Australia will receive weaker signals that dishes in Northern Australia. Poor conditions in the atmosphere, for example heavy rainfall, smoke/fog/smog, dust, and water vapour may hinder signal transmission.<br><br>Services may also be hindered if the satellite dish is not properly aligned.</p>
+</div>
+
+<!-- ------------ Some JS ------------ -->
+<script>
+
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight){
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+
+</script>
+<!-- ------------ End of JS ------------ -->
+
+
+<p><br> <br> <button class="button button5"><a href="../Index.html">Go back to homepage?</a></button></p>
+
+ <!-- ------------ End of text and Stuff ------------ -->
+
+
+
+</body>
+</html>

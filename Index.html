@@ -1,0 +1,364 @@
+﻿<!DOCTYPE html>
+<html>
+  
+<head>
+  <title>The Internet</title>
+  <link rel="stylesheet" type="text/css" href="css/StylingTabs.css">
+ <!-- ------------------------------------------------ CSS Stuff ------------------------------------------------ -->
+ <style>  
+
+ /*------------ Background Image ------------ */
+ body {
+   background-image: url(globalnet.jpg);
+   background-repeat: no-repeat;
+   -webkit-background-size:cover;
+   background-size:cover;
+   background-position: center center;
+   height: 100vh;
+   }
+
+ /*------------ Image Buttons ------------ */
+
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,800);
+figure.snip1091 {
+  font-family: 'Raleway', Arial, sans-serif;
+  position: relative;
+  display: inline-block;
+  margin: 10px;
+  min-width: 220px;
+  max-width: 310px;
+  max-height: 310px;
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+  background: #000000;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+
+figure.snip1091 * {
+  -webkit-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+}
+
+figure.snip1091 img {
+  opacity: 0.25;
+  max-width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+figure.snip1091 figcaption {
+  position: absolute;
+  top: 50%;
+  left: 30px;
+  right: 30px;
+  -webkit-transform: rotate(0deg) translateY(-50%) scale(1);
+  transform: rotate(0deg) translateY(-50%) scale(1);
+  -webkit-transform-origin: center 0;
+  transform-origin: center 0;
+}
+
+figure.snip1091 figcaption h2 {
+  top: 50%;
+  letter-spacing: -1px;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding: 10px 0;
+  margin: 0;
+  font-weight: 400;
+}
+
+figure.snip1091 figcaption h2 span {
+  font-weight: 800;
+}
+
+figure.snip1091 figcaption:before,
+figure.snip1091 figcaption:after {
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  content: "";
+  display: block;
+  -webkit-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+}
+
+figure.snip1091 figcaption:before {
+  left: 0;
+  top: 0;
+}
+
+figure.snip1091 figcaption:after {
+  bottom: 0;
+  right: 0;
+}
+
+figure.snip1091.blue {
+  background: #091b27;
+}
+
+figure.snip1091.red {
+  background: #2e0e0a;
+}
+
+figure.snip1091.yellow {
+  background: #4f3204;
+}
+
+figure.snip1091.green {
+  background: #061c10;
+}
+
+figure.snip1091.navy {
+  background: #000000;
+}
+
+figure.snip1091 a {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+}
+
+figure.snip1091:hover img,
+figure.snip1091.hover img {
+  opacity: 1;
+}
+
+figure.snip1091:hover figcaption,
+figure.snip1091.hover figcaption {
+  -webkit-transform: rotate(-45deg) translateY(-50%) scale(0.9);
+  transform: rotate(-45deg) translateY(-50%) scale(0.9);
+}
+
+figure.snip1091:hover figcaption:before,
+figure.snip1091.hover figcaption:before,
+figure.snip1091:hover figcaption:after,
+figure.snip1091.hover figcaption:after {
+  width: 200%;
+}
+
+/* Demo purposes only */
+html {
+  height: 100%;
+}
+body {
+  background-color: #212121;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: wrap;
+  margin: 0;
+  height: 100%;
+}
+
+ /*------------ End of Image Buttons ------------ */
+
+ /*------------ Menu Nav ------------ */
+
+ body {
+  font-family: "Lato", sans-serif;
+  transition: background-color .5s;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+ /*------------ End of Menu Nav ------------ */
+
+ /*------------ Button of Menu Nav ------------ */
+ button {
+  background-color: #4CAF50; 
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+button {
+  background-color: #000000;
+  color: white;
+  border: 2px solid #555555;
+}
+
+button:hover {
+  background-color: #555555;
+  color: white;
+}
+ /*------------ End of Button of Menu Nav ------------ */
+
+ </style>  
+ <!-- ------------------------------------------------ End Of CSS Stuff ------------------------------------------------ -->
+ 
+ <!-- ------------------------------------------------ Start Of JS Stuff ------------------------------------------------ -->
+ <script>
+
+/* ------------------ Clicking Stuff ------------------ */
+$("figure").mouseleave(
+    function () {
+        $(this).removeClass("hover");
+       }   
+    );
+/* ------------------ End of Clicking Stuff ------------------ */
+
+ </script>
+    <!-- ------------------------------------------------ End Of JS Stuff ------------------------------------------------ -->
+  
+
+<!-- ------------------------------------------------ Body ------------------------------------------------ -->
+<body>
+
+<!-- ------------ Menu Nav ------------ -->
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="pages/WhatNet.html"target="_blank" class="listLink">What is the internet?</a>
+  <a href="pages/History.html"target="_blank" class="listLink">History of the Internet</a>
+  <a href="pages/Use.html"target="_blank" class="listLink">What is the Internet used for?</a>
+  <a href="pages/Connecting.html"target="_blank" class="listLink">Connecting to the Internet</a>
+  <a href="pages/Groups.html"target="_blank" class="listLink">Email, Newsgroups, Chat, World Wide Web</a>
+  <a href="pages/Browsers.html"target="_blank" class="listLink">Browsers</a>
+  <a href="pages/IP.html"target="_blank" class="listLink">Internet protocols</a>
+  <a href="pages/Security.html"target="_blank" class="listLink">Security and Privacy issues</a>
+  <a href="pages/Future.html"target="_blank" class="listLink">Imagining the future</a>
+  <a href="pages/FAQ.html"target="_blank" class="listLink">FAQ</a>
+</div>
+
+<div id="main">
+  <button><span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Nav Bar</span></button>
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+  document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+  document.body.style.backgroundColor = "white";
+}
+</script>
+<!-- ------------ End of Menu Nav ------------ -->
+
+<!-- ------------ Image Buttons ------------ -->
+
+<figure class="snip1091 red"><img src="images/group3.png" alt="sq-sample6"/>
+  <figcaption>
+    <h2><span>What is the Internet?</span></h2>
+  </figcaption><a href="pages/WhatNet.html" target="_blank"></a>
+</figure>
+
+<figure class="snip1091 navy"><img src="images/Tunnel.jpg" alt="sq-sample10"/>
+  <figcaption>
+    <h2><span>History of the Internet?</span></h2>
+  </figcaption><a href="pages/History.html" target="_blank"></a>
+</figure>
+
+<figure class="snip1091 navy"><img src="images/ralph.jpg" alt="sq-sample10"/>
+  <figcaption>
+    <h2><span>What is the Internet used for?"</span></h2>
+  </figcaption><a href="pages/Use.html" target="_blank"></a>
+</figure>
+
+<figure class="snip1091 red"><img src="images/connect.jpg" alt="sq-sample6"/>
+  <figcaption>
+    <h2><span>Connecting to the Internet</span></h2>
+  </figcaption><a href="pages/Connecting.html" target="_blank"></a>
+</figure>
+
+<figure class="snip1091 navy"><img src="images/globe.jpg" alt="sq-sample10"/>
+  <figcaption>
+    <h2><span>Email, Newsgroups, Chat, World Wide Web</span></h2>
+  </figcaption><a href="pages/Groups.html" target="_blank"></a>
+</figure>
+
+<figure class="snip1091 red"><img src="images/group.jpg" alt="sq-sample6"/>
+  <figcaption>
+    <h2><span>Browsers</span></h2>
+  </figcaption><a href="pages/Browsers.html" target="_blank"></a>
+</figure>
+
+<figure class="snip1091 navy"><img src="images/tablet.jpg" alt="sq-sample10"/>
+  <figcaption>
+    <h2><span>Internet Protocols</span></h2>
+  </figcaption><a href="pages/IP.html" target="_blank"></a>
+</figure>
+
+<figure class="snip1091 navy"><img src="images/security.jpg" alt="sq-sample10"/>
+  <figcaption>
+    <h2><span>Security and Privacy Issues</span></h2>
+  </figcaption><a href="pages/Security.html" target="_blank"></a>
+</figure>
+
+<figure class="snip1091 red"><img src="images/idea.jpg" alt="sq-sample6"/>
+  <figcaption>
+    <h2><span>Imagining the future</span></h2>
+  </figcaption><a href="pages/Future.html" target="_blank"></a>
+</figure>
+
+<figure class="snip1091 navy"><img src="images/faq.png" alt="sq-sample10"/>
+  <figcaption>
+    <h2><span>Frequently Asked Questions</span></h2>
+  </figcaption><a href="pages/FAQ.html" target="_blank"></a>
+</figure>
+<!-- ------------ End of Image Buttons ------------ -->
+
+
+
+</body>
+<!-- ------------------------------------------------ End Of Body ------------------------------------------------ -->
+
+
+</html>
